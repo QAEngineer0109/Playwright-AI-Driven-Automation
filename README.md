@@ -2,7 +2,7 @@
 
 A modern Playwright automation framework integrating AI-driven testing concepts with structured, maintainable test architecture. This project demonstrates scalable automation design using Playwright and JavaScript.
 
-Overview
+📌 Overview
 
 This project includes:
 
@@ -16,7 +16,7 @@ Clean Playwright configuration
 
 Scalable framework structure for UI and API automation
 
-Project Structure
+📂 Project Structure
 
 Playwright-AI-Driven-Automation
 
@@ -38,7 +38,7 @@ package-lock.json — Dependency lock file
 
 playwright.config.js — Playwright configuration
 
-Tech Stack
+🛠 Tech Stack
 
 Playwright
 
@@ -48,7 +48,7 @@ JavaScript
 
 npm
 
-Installation
+⚙️ Installation
 
 Clone the repository:
 
@@ -66,7 +66,7 @@ Install Playwright browsers:
 
 npx playwright install
 
-Running Tests
+▶️ Running Tests
 
 Run all tests:
 
@@ -76,13 +76,13 @@ Run a specific test file:
 
 npx playwright test tests/yourTestFile.spec.js
 
-View Test Report
+📊 View Test Report
 
 After execution:
 
 npx playwright show-report
 
-Repository Notes
+🔒 Repository Notes
 
 This repository does NOT include GitHub Actions workflows
 
@@ -90,6 +90,10 @@ No tests run automatically on push
 
 The project is intended for educational and classroom use
 
-Author
+👨‍💻 Author
 
 QAEngineer0109 – Brett Skiff
+
+📄 License
+
+This project is intended for educational purposes only.
