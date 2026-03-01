@@ -1,0 +1,634 @@
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "$ Currency " [ref=e10] [cursor=pointer]:
+            - /url: "#"
+            - strong [ref=e11]: $
+            - text: Currency
+            - generic [ref=e12]: 
+        - listitem
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link " 123456789" [ref=e16] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=information/contact&language=en-gb
+            - generic [ref=e17]: 
+            - text: "123456789"
+        - listitem [ref=e18]:
+          - link " My Account " [ref=e20] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e21]: 
+            - text: My Account
+            - generic [ref=e22]: 
+        - listitem [ref=e23]:
+          - link " Wish List (0)" [ref=e24] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=account/wishlist&language=en-gb
+            - generic [ref=e25]: 
+            - text: Wish List (0)
+        - listitem [ref=e26]:
+          - link " Shopping Cart" [ref=e27] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=checkout/cart&language=en-gb
+            - generic [ref=e28]: 
+            - text: Shopping Cart
+        - listitem [ref=e29]:
+          - link " Checkout" [ref=e30] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=checkout/checkout&language=en-gb
+            - generic [ref=e31]: 
+            - text: Checkout
+  - banner [ref=e32]:
+    - generic [ref=e34]:
+      - link "Your Store" [ref=e37] [cursor=pointer]:
+        - /url: https://www.cloudberrystore.services/index.php?route=common/home&language=en-gb
+        - img "Your Store" [ref=e38]
+      - generic [ref=e40]:
+        - textbox "Search" [ref=e41]
+        - button "" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: 
+      - generic [ref=e45]:
+        - button " 1 item(s) - $602.00" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: 
+          - text: 1 item(s) - $602.00
+        - text:   
+  - main [ref=e48]:
+    - navigation [ref=e50]:
+      - text: 
+      - list [ref=e52]:
+        - listitem [ref=e53]:
+          - link "Desktops" [ref=e54] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=20
+        - listitem [ref=e55]:
+          - link "Laptops & Notebooks" [ref=e56] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=18
+        - listitem [ref=e57]:
+          - link "Components" [ref=e58] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=25
+        - listitem [ref=e59]:
+          - link "Tablets" [ref=e60] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=57
+        - listitem [ref=e61]:
+          - link "Software" [ref=e62] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=17
+        - listitem [ref=e63]:
+          - link "Phones & PDAs" [ref=e64] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=24
+        - listitem [ref=e65]:
+          - link "Cameras" [ref=e66] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=33
+        - listitem [ref=e67]:
+          - link "MP3 Players" [ref=e68] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=34
+    - generic [ref=e69]:
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - link "" [ref=e72] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=common/home&language=en-gb
+            - generic [ref=e73]: 
+        - listitem [ref=e74]:
+          - link "Shopping Cart" [ref=e75] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=checkout/cart&language=en-gb
+        - listitem [ref=e76]:
+          - link "Checkout" [ref=e77] [cursor=pointer]:
+            - /url: https://www.cloudberrystore.services/index.php?route=checkout/checkout&language=en-gb
+      - generic [ref=e79]:
+        - heading "Checkout" [level=1] [ref=e80]
+        - generic [ref=e81]:
+          - generic [ref=e84]:
+            - paragraph [ref=e85]:
+              - text: If you already have an account with us, please login at the
+              - link "login page" [ref=e86] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=account/login&language=en-gb&redirect=https%3A%2F%2Fwww.cloudberrystore.services%2Findex.php?route%3Dcheckout%2Fcheckout%26language%3Den-gb
+                - strong [ref=e87]: login page
+              - text: .
+            - group "Your Personal Details" [ref=e88]:
+              - generic [ref=e89]: Your Personal Details
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - radio "Register Account" [ref=e93]
+                  - generic [ref=e94]: Register Account
+                - generic [ref=e95]:
+                  - radio "Guest Checkout" [checked] [ref=e96]
+                  - generic [ref=e97]: Guest Checkout
+              - generic [ref=e98]:
+                - generic [ref=e99]:
+                  - generic [ref=e100]: "* First Name"
+                  - textbox "* First Name" [ref=e101]:
+                    - /placeholder: First Name
+                    - text: Emma
+                - generic [ref=e102]:
+                  - generic [ref=e103]: "* Last Name"
+                  - textbox "* Last Name" [ref=e104]:
+                    - /placeholder: Last Name
+                    - text: Davis
+                - generic [ref=e105]:
+                  - generic [ref=e106]: "* E-Mail"
+                  - textbox "* E-Mail" [ref=e107]:
+                    - /placeholder: E-Mail
+                    - text: emma.davis@example.com
+            - group "Shipping Address" [ref=e108]:
+              - generic [ref=e109]: Shipping Address
+              - generic [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: Company
+                  - textbox "Company" [ref=e113]
+                - generic [ref=e114]:
+                  - generic [ref=e115]: "* Address 1"
+                  - textbox "* Address 1" [ref=e116]:
+                    - /placeholder: Address 1
+                    - text: 500 Boulevard Road
+                - generic [ref=e117]:
+                  - generic [ref=e118]: Address 2
+                  - textbox "Address 2" [ref=e119]
+                - generic [ref=e120]:
+                  - generic [ref=e121]: "* City"
+                  - textbox "* City" [ref=e122]:
+                    - /placeholder: City
+                    - text: Bristol
+                - generic [ref=e123]:
+                  - generic [ref=e124]: "* Post Code"
+                  - textbox "* Post Code" [active] [ref=e125]:
+                    - /placeholder: Post Code
+                    - text: BS1 3AA
+                - generic [ref=e126]:
+                  - generic [ref=e127]: "* Country"
+                  - combobox "* Country" [ref=e128]:
+                    - option "--- Please Select ---"
+                    - option "Aaland Islands"
+                    - option "Afghanistan"
+                    - option "Albania"
+                    - option "Algeria"
+                    - option "American Samoa"
+                    - option "Andorra"
+                    - option "Angola"
+                    - option "Anguilla"
+                    - option "Antarctica"
+                    - option "Antigua and Barbuda"
+                    - option "Argentina"
+                    - option "Armenia"
+                    - option "Aruba"
+                    - option "Ascension Island (British)"
+                    - option "Australia"
+                    - option "Austria"
+                    - option "Azerbaijan"
+                    - option "Bahrain"
+                    - option "Bangladesh"
+                    - option "Barbados"
+                    - option "Belarus"
+                    - option "Belgium"
+                    - option "Belize"
+                    - option "Benin"
+                    - option "Bermuda"
+                    - option "Bhutan"
+                    - option "Bolivia"
+                    - option "Bonaire, Sint Eustatius and Saba"
+                    - option "Bosnia and Herzegovina"
+                    - option "Botswana"
+                    - option "Bouvet Island"
+                    - option "Brazil"
+                    - option "British Indian Ocean Territory"
+                    - option "Brunei"
+                    - option "Bulgaria"
+                    - option "Burkina Faso"
+                    - option "Burundi"
+                    - option "Cambodia"
+                    - option "Cameroon"
+                    - option "Canada"
+                    - option "Canary Islands"
+                    - option "Cape Verde"
+                    - option "Cayman Islands"
+                    - option "Central African Republic"
+                    - option "Chad"
+                    - option "Chile"
+                    - option "China"
+                    - option "Christmas Island"
+                    - option "Cocos (Keeling) Islands"
+                    - option "Colombia"
+                    - option "Comoros"
+                    - option "Congo"
+                    - option "Cook Islands"
+                    - option "Costa Rica"
+                    - option "Cote D'Ivoire"
+                    - option "Croatia"
+                    - option "Cuba"
+                    - option "Curacao"
+                    - option "Cyprus"
+                    - option "Czech Republic"
+                    - option "Democratic Republic of the Congo"
+                    - option "Denmark"
+                    - option "Djibouti"
+                    - option "Dominica"
+                    - option "Dominican Republic"
+                    - option "Ecuador"
+                    - option "Egypt"
+                    - option "El Salvador"
+                    - option "Equatorial Guinea"
+                    - option "Eritrea"
+                    - option "Estonia"
+                    - option "Eswatini"
+                    - option "Ethiopia"
+                    - option "Falkland Islands (Malvinas)"
+                    - option "Faroe Islands"
+                    - option "Fiji"
+                    - option "Finland"
+                    - option "France, Metropolitan"
+                    - option "French Guiana"
+                    - option "French Polynesia"
+                    - option "French Southern Territories"
+                    - option "Gabon"
+                    - option "Georgia"
+                    - option "Germany"
+                    - option "Ghana"
+                    - option "Gibraltar"
+                    - option "Greece"
+                    - option "Greenland"
+                    - option "Grenada"
+                    - option "Guadeloupe"
+                    - option "Guam"
+                    - option "Guatemala"
+                    - option "Guernsey"
+                    - option "Guinea"
+                    - option "Guinea-Bissau"
+                    - option "Guyana"
+                    - option "Haiti"
+                    - option "Heard and Mc Donald Islands"
+                    - option "Honduras"
+                    - option "Hong Kong"
+                    - option "Hungary"
+                    - option "Iceland"
+                    - option "India"
+                    - option "Indonesia"
+                    - option "Iran (Islamic Republic of)"
+                    - option "Iraq"
+                    - option "Ireland"
+                    - option "Isle of Man"
+                    - option "Israel"
+                    - option "Italy"
+                    - option "Jamaica"
+                    - option "Japan"
+                    - option "Jersey"
+                    - option "Jordan"
+                    - option "Kazakhstan"
+                    - option "Kenya"
+                    - option "Kiribati"
+                    - option "Kosovo, Republic of"
+                    - option "Kuwait"
+                    - option "Kyrgyzstan"
+                    - option "Lao People's Democratic Republic (the)"
+                    - option "Latvia"
+                    - option "Lebanon"
+                    - option "Lesotho"
+                    - option "Liberia"
+                    - option "Libya"
+                    - option "Liechtenstein"
+                    - option "Lithuania"
+                    - option "Luxembourg"
+                    - option "Macau"
+                    - option "Madagascar"
+                    - option "Malawi"
+                    - option "Malaysia"
+                    - option "Maldives"
+                    - option "Mali"
+                    - option "Malta"
+                    - option "Marshall Islands"
+                    - option "Martinique"
+                    - option "Mauritania"
+                    - option "Mauritius"
+                    - option "Mayotte"
+                    - option "Mexico"
+                    - option "Micronesia, Federated States of"
+                    - option "Moldova, Republic of"
+                    - option "Monaco"
+                    - option "Mongolia"
+                    - option "Montenegro"
+                    - option "Montserrat"
+                    - option "Morocco"
+                    - option "Mozambique"
+                    - option "Myanmar"
+                    - option "Namibia"
+                    - option "Nauru"
+                    - option "Nepal"
+                    - option "Netherlands"
+                    - option "Netherlands Antilles"
+                    - option "New Caledonia"
+                    - option "New Zealand"
+                    - option "Nicaragua"
+                    - option "Niger"
+                    - option "Nigeria"
+                    - option "Niue"
+                    - option "Norfolk Island"
+                    - option "North Korea"
+                    - option "North Macedonia"
+                    - option "Northern Mariana Islands"
+                    - option "Norway"
+                    - option "Occupied Palestinian Territory"
+                    - option "Oman"
+                    - option "Pakistan"
+                    - option "Palau"
+                    - option "Panama"
+                    - option "Papua New Guinea"
+                    - option "Paraguay"
+                    - option "Peru"
+                    - option "Philippines"
+                    - option "Pitcairn"
+                    - option "Poland"
+                    - option "Portugal"
+                    - option "Puerto Rico"
+                    - option "Qatar"
+                    - option "Republic of Türkiye"
+                    - option "Reunion"
+                    - option "Romania"
+                    - option "Russian Federation (the)"
+                    - option "Rwanda"
+                    - option "Saint Kitts and Nevis"
+                    - option "Saint Lucia"
+                    - option "Saint Vincent and the Grenadines"
+                    - option "Samoa"
+                    - option "San Marino"
+                    - option "Sao Tome and Principe"
+                    - option "Saudi Arabia"
+                    - option "Senegal"
+                    - option "Serbia"
+                    - option "Seychelles"
+                    - option "Sierra Leone"
+                    - option "Singapore"
+                    - option "Slovak Republic"
+                    - option "Slovenia"
+                    - option "Solomon Islands"
+                    - option "Somalia"
+                    - option "South Africa"
+                    - option "South Georgia & South Sandwich Islands"
+                    - option "South Korea"
+                    - option "South Sudan"
+                    - option "Spain"
+                    - option "Sri Lanka"
+                    - option "St. Barthelemy"
+                    - option "St. Helena"
+                    - option "St. Martin (French part)"
+                    - option "St. Pierre and Miquelon"
+                    - option "Sudan"
+                    - option "Suriname"
+                    - option "Svalbard and Jan Mayen Islands"
+                    - option "Sweden"
+                    - option "Switzerland"
+                    - option "Syrian Arab Republic"
+                    - option "Taiwan"
+                    - option "Tajikistan"
+                    - option "Tanzania, United Republic of"
+                    - option "Thailand"
+                    - option "The Bahamas"
+                    - option "The Gambia"
+                    - option "Timor-Leste"
+                    - option "Togo"
+                    - option "Tokelau"
+                    - option "Tonga"
+                    - option "Trinidad and Tobago"
+                    - option "Tristan da Cunha"
+                    - option "Tunisia"
+                    - option "Turkmenistan"
+                    - option "Turks and Caicos Islands"
+                    - option "Tuvalu"
+                    - option "Uganda"
+                    - option "Ukraine"
+                    - option "United Arab Emirates"
+                    - option "United Kingdom" [selected]
+                    - option "United States"
+                    - option "United States Minor Outlying Islands"
+                    - option "Uruguay"
+                    - option "Uzbekistan"
+                    - option "Vanuatu"
+                    - option "Vatican City State (Holy See)"
+                    - option "Venezuela"
+                    - option "Viet Nam"
+                    - option "Virgin Islands (British)"
+                    - option "Virgin Islands (U.S.)"
+                    - option "Wallis and Futuna Islands"
+                    - option "Western Sahara"
+                    - option "Yemen"
+                    - option "Zambia"
+                    - option "Zimbabwe"
+                - generic [ref=e129]:
+                  - generic [ref=e130]: "* Region / State"
+                  - combobox "* Region / State" [ref=e131]:
+                    - option "--- Please Select ---" [selected]
+                    - option "Aberdeen"
+                    - option "Aberdeenshire"
+                    - option "Anglesey"
+                    - option "Angus"
+                    - option "Argyll and Bute"
+                    - option "Bedfordshire"
+                    - option "Berkshire"
+                    - option "Blaenau Gwent"
+                    - option "Bridgend"
+                    - option "Bristol"
+                    - option "Buckinghamshire"
+                    - option "Caerphilly"
+                    - option "Cambridgeshire"
+                    - option "Cardiff"
+                    - option "Carmarthenshire"
+                    - option "Ceredigion"
+                    - option "Cheshire"
+                    - option "Clackmannanshire"
+                    - option "Conwy"
+                    - option "Cornwall"
+                    - option "County Antrim"
+                    - option "County Armagh"
+                    - option "County Down"
+                    - option "County Fermanagh"
+                    - option "County Londonderry"
+                    - option "County Tyrone"
+                    - option "Cumbria"
+                    - option "Denbighshire"
+                    - option "Derbyshire"
+                    - option "Devon"
+                    - option "Dorset"
+                    - option "Dumfries and Galloway"
+                    - option "Dundee"
+                    - option "Durham"
+                    - option "East Ayrshire"
+                    - option "East Dunbartonshire"
+                    - option "East Lothian"
+                    - option "East Renfrewshire"
+                    - option "East Riding of Yorkshire"
+                    - option "East Sussex"
+                    - option "Edinburgh"
+                    - option "Essex"
+                    - option "Falkirk"
+                    - option "Fife"
+                    - option "Flintshire"
+                    - option "Glasgow"
+                    - option "Gloucestershire"
+                    - option "Greater London"
+                    - option "Greater Manchester"
+                    - option "Gwynedd"
+                    - option "Hampshire"
+                    - option "Herefordshire"
+                    - option "Hertfordshire"
+                    - option "Highlands"
+                    - option "Inverclyde"
+                    - option "Isle of Wight"
+                    - option "Kent"
+                    - option "Lancashire"
+                    - option "Leicestershire"
+                    - option "Lincolnshire"
+                    - option "Merseyside"
+                    - option "Merthyr Tydfil"
+                    - option "Midlothian"
+                    - option "Monmouthshire"
+                    - option "Moray"
+                    - option "Neath Port Talbot"
+                    - option "Newport"
+                    - option "Norfolk"
+                    - option "North Ayrshire"
+                    - option "North Lanarkshire"
+                    - option "North Yorkshire"
+                    - option "Northamptonshire"
+                    - option "Northumberland"
+                    - option "Nottinghamshire"
+                    - option "Orkney Islands"
+                    - option "Oxfordshire"
+                    - option "Pembrokeshire"
+                    - option "Perth and Kinross"
+                    - option "Powys"
+                    - option "Renfrewshire"
+                    - option "Rhondda Cynon Taff"
+                    - option "Rutland"
+                    - option "Scottish Borders"
+                    - option "Shetland Islands"
+                    - option "Shropshire"
+                    - option "Somerset"
+                    - option "South Ayrshire"
+                    - option "South Lanarkshire"
+                    - option "South Yorkshire"
+                    - option "Staffordshire"
+                    - option "Stirling"
+                    - option "Suffolk"
+                    - option "Surrey"
+                    - option "Swansea"
+                    - option "Torfaen"
+                    - option "Tyne and Wear"
+                    - option "Vale of Glamorgan"
+                    - option "Warwickshire"
+                    - option "West Dunbartonshire"
+                    - option "West Lothian"
+                    - option "West Midlands"
+                    - option "West Sussex"
+                    - option "West Yorkshire"
+                    - option "Western Isles"
+                    - option "Wiltshire"
+                    - option "Worcestershire"
+                    - option "Wrexham"
+            - generic [ref=e132]: "*"
+            - generic [ref=e134]:
+              - generic [ref=e135]:
+                - generic [ref=e136]: I wish to subscribe to the Your Store newsletter.
+                - checkbox "I wish to subscribe to the Your Store newsletter." [ref=e137]
+              - button "Continue" [ref=e138] [cursor=pointer]
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - group "Payment Method" [ref=e141]:
+                - generic [ref=e142]: Payment Method
+                - generic [ref=e143]:
+                  - generic [ref=e145]: 
+                  - textbox "Choose payment method..." [ref=e146]
+                  - button "Choose" [ref=e147] [cursor=pointer]
+              - generic [ref=e148]:
+                - strong [ref=e150]: Add Comments About Your Order
+                - textbox "Add Comments About Your Order" [ref=e151]
+            - generic [ref=e152]:
+              - table [ref=e154]:
+                - rowgroup [ref=e155]:
+                  - row "Product Total" [ref=e156]:
+                    - columnheader "Product" [ref=e157]
+                    - columnheader "Total" [ref=e158]
+                - rowgroup [ref=e159]:
+                  - 'row "1x MacBook - Model: Product 16 - Reward Points: 600 $602.00" [ref=e160]':
+                    - 'cell "1x MacBook - Model: Product 16 - Reward Points: 600" [ref=e161]':
+                      - text: 1x
+                      - link "MacBook" [ref=e162] [cursor=pointer]:
+                        - /url: https://www.cloudberrystore.services/index.php?route=product/product&language=en-gb&product_id=43
+                      - list [ref=e163]:
+                        - listitem [ref=e164]: "- Model: Product 16"
+                        - listitem [ref=e165]: "- Reward Points: 600"
+                    - cell "$602.00" [ref=e166]
+                - rowgroup [ref=e167]:
+                  - row "Sub-Total $500.00" [ref=e168]:
+                    - cell "Sub-Total" [ref=e169]:
+                      - strong [ref=e170]: Sub-Total
+                    - cell "$500.00" [ref=e171]
+                  - row "Eco Tax (-2.00) $2.00" [ref=e172]:
+                    - cell "Eco Tax (-2.00)" [ref=e173]:
+                      - strong [ref=e174]: Eco Tax (-2.00)
+                    - cell "$2.00" [ref=e175]
+                  - row "VAT (20%) $100.00" [ref=e176]:
+                    - cell "VAT (20%)" [ref=e177]:
+                      - strong [ref=e178]: VAT (20%)
+                    - cell "$100.00" [ref=e179]
+                  - row "Total $602.00" [ref=e180]:
+                    - cell "Total" [ref=e181]:
+                      - strong [ref=e182]: Total
+                    - cell "$602.00" [ref=e183]
+              - generic [ref=e185]:
+                - button "Confirm Order" [disabled]
+  - contentinfo [ref=e186]:
+    - generic [ref=e187]:
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Information" [level=5] [ref=e190]
+          - list [ref=e191]:
+            - listitem [ref=e192]:
+              - link "Terms & Conditions" [ref=e193] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=information/information&language=en-gb&information_id=2
+            - listitem [ref=e194]:
+              - link "Delivery Information" [ref=e195] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=information/information&language=en-gb&information_id=4
+            - listitem [ref=e196]:
+              - link "About Us" [ref=e197] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=information/information&language=en-gb&information_id=1
+            - listitem [ref=e198]:
+              - link "Privacy Policy" [ref=e199] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=information/information&language=en-gb&information_id=3
+        - generic [ref=e200]:
+          - heading "Customer Service" [level=5] [ref=e201]
+          - list [ref=e202]:
+            - listitem [ref=e203]:
+              - link "Contact Us" [ref=e204] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=information/contact&language=en-gb
+            - listitem [ref=e205]:
+              - link "Returns" [ref=e206] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=account/returns.add&language=en-gb
+            - listitem [ref=e207]:
+              - link "Site Map" [ref=e208] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=information/sitemap&language=en-gb
+        - generic [ref=e209]:
+          - heading "Extras" [level=5] [ref=e210]
+          - list [ref=e211]:
+            - listitem [ref=e212]:
+              - link "Brands" [ref=e213] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=product/manufacturer&language=en-gb
+            - listitem [ref=e214]:
+              - link "Affiliate" [ref=e215] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=account/affiliate&language=en-gb
+            - listitem [ref=e216]:
+              - link "Specials" [ref=e217] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=product/special&language=en-gb
+        - generic [ref=e218]:
+          - heading "My Account" [level=5] [ref=e219]
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - link "My Account" [ref=e222] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=account/account&language=en-gb
+            - listitem [ref=e223]:
+              - link "Order History" [ref=e224] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=account/order&language=en-gb
+            - listitem [ref=e225]:
+              - link "Wish List" [ref=e226] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=account/wishlist&language=en-gb
+            - listitem [ref=e227]:
+              - link "Newsletter" [ref=e228] [cursor=pointer]:
+                - /url: https://www.cloudberrystore.services/index.php?route=account/newsletter&language=en-gb
+      - separator [ref=e229]
+      - paragraph [ref=e230]:
+        - text: Powered By
+        - link "OpenCart" [ref=e231] [cursor=pointer]:
+          - /url: https://www.opencart.com
+        - text: Your Store © 2026
