@@ -19,16 +19,24 @@ Scalable framework structure for UI and API automation
 Project Structure
 
 Playwright-AI-Driven-Automation
-│
-├── .playwright-mcp/ # Playwright local configuration/cache
-├── .vscode/ # Editor configuration (local)
-├── specs/ # Spec definitions
-├── test-plans/ # Organized test planning files
-├── tests/ # Test cases
-├── .gitignore # Ignored files and folders
-├── package.json # Project dependencies
-├── package-lock.json # Dependency lock file
-└── playwright.config.js # Playwright configuration
+
+.playwright-mcp/ — Playwright local configuration/cache
+
+.vscode/ — Editor configuration (local)
+
+specs/ — Spec definitions
+
+test-plans/ — Organized test planning files
+
+tests/ — Test cases
+
+.gitignore — Ignored files and folders
+
+package.json — Project dependencies
+
+package-lock.json — Dependency lock file
+
+playwright.config.js — Playwright configuration
 
 Tech Stack
 
@@ -85,7 +93,3 @@ The project is intended for educational and classroom use
 Author
 
 QAEngineer0109 – Brett Skiff
-
-License
-
-This project is intended for educational purposes only.
