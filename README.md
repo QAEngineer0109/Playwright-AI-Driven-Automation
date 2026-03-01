@@ -1,99 +1,55 @@
-🤖 Playwright AI-Driven Automation
+Playwright AI-Driven Automation
 
-A modern Playwright automation framework integrating AI-driven testing concepts with structured, maintainable test architecture. This project demonstrates scalable automation design using Playwright and JavaScript.
+A Playwright automation project demonstrating structured, maintainable test design using JavaScript.
 
-📌 Overview
+Overview
 
 This project includes:
 
-Structured test organization
+Organized test structure
 
-Dedicated specs and test plans
+Separate specs and test plans
 
-Modular and reusable test patterns
+Reusable test patterns
 
-Clean Playwright configuration
+Playwright configuration setup
 
-Scalable framework structure for UI and API automation
+Project Structure
 
-📂 Project Structure
+specs/ – Spec definitions
 
-Playwright-AI-Driven-Automation
+test-plans/ – Test planning files
 
-.playwright-mcp/ — Playwright local configuration/cache
+tests/ – Test cases
 
-.vscode/ — Editor configuration (local)
+playwright.config.js – Playwright configuration
 
-specs/ — Spec definitions
+package.json – Project dependencies
 
-test-plans/ — Organized test planning files
-
-tests/ — Test cases
-
-.gitignore — Ignored files and folders
-
-package.json — Project dependencies
-
-package-lock.json — Dependency lock file
-
-playwright.config.js — Playwright configuration
-
-🛠 Tech Stack
-
-Playwright
-
-Node.js
-
-JavaScript
-
-npm
-
-⚙️ Installation
+Installation
 
 Clone the repository:
 
 git clone https://github.com/QAEngineer0109/Playwright-AI-Driven-Automation.git
 
-Navigate into the project:
-
-cd Playwright-AI-Driven-Automation
-
 Install dependencies:
 
 npm install
 
-Install Playwright browsers:
+Install browsers:
 
 npx playwright install
 
-▶️ Running Tests
-
-Run all tests:
+Run Tests
 
 npx playwright test
 
-Run a specific test file:
+Notes
 
-npx playwright test tests/yourTestFile.spec.js
+This repository does not use GitHub Actions.
+Tests do not run automatically on push.
+Created for educational purposes.
 
-📊 View Test Report
+Author
 
-After execution:
-
-npx playwright show-report
-
-🔒 Repository Notes
-
-This repository does NOT include GitHub Actions workflows
-
-No tests run automatically on push
-
-The project is intended for educational and classroom use
-
-👨‍💻 Author
-
-QAEngineer0109 – Brett Skiff
-
-📄 License
-
-This project is intended for educational purposes only.
+Brett Skiff
